@@ -40,6 +40,10 @@
             <Button x:Name="three_button" Click="One_button_Click"  Content="5" HorizontalAlignment="Left" Margin="62,172,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
             <Button x:Name="four_button" Click="One_button_Click"  Content="10" HorizontalAlignment="Left" Margin="132,172,0,0" VerticalAlignment="Top" Width="50" Height="50"/>
             <Button x:Name="count_button" Click="count_button_Click" Content="Сдача" Grid.Column="1" HorizontalAlignment="Left" Margin="73,429,0,0" VerticalAlignment="Top" Width="84" Height="30"/>
+            <Rectangle HorizontalAlignment="Center" Height="132" Margin="25,249,17,0" Stroke="Black" VerticalAlignment="Top" Width="208"/>
+            <Label Content="1. Внесите деньги" HorizontalAlignment="Left" Margin="29,259,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Width="166"/>
+            <Label Content="2. Выберите напиток" HorizontalAlignment="Left" Margin="29,298,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Width="194"/>
+            <Label Content="3. Получите сдачу" HorizontalAlignment="Left" Margin="29,337,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Height="34" Width="170"/>
         </Grid>
         <Grid Grid.Row="0" Grid.Column="0">
             <Grid.ColumnDefinitions>
